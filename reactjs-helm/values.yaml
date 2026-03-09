@@ -68,10 +68,10 @@ ingress:
       paths:
         - path: /
           pathType: ImplementationSpecific
-  tls: []
-   - secretName: earthdx-demo-tls
-     hosts:
-       - earthdx-demo.lengsenghong.com
+  tls:
+    - secretName: earthdx-demo-tls
+      hosts:
+        - earthdx-demo.lengsenghong.com
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
